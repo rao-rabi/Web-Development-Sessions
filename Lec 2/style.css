@@ -1,0 +1,14 @@
+h1{
+    text-align: center;
+}
+ul{
+    font-size: 25px;
+    list-style-type:square;
+}
+dl{
+    font-size: 25px;
+}
+a{
+    text-decoration: none;
+    padding: 1%;
+}
