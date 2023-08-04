@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+  </head>
+  <body>
+    <form method="get" action="">
+      <fieldset>
+        <legend>Personal details</legend>
+        <!-- dropdown -->
+        <label for="dropdown"><b>Saturation</b></label
+        ><br />
+        <select name="devices" id="dropdown">
+          <option value="1" selected>Select Your device</option>
+          <option value="2">Iphone</option>
+          <option value="3">Android</option>
+          <option value="4">Laptop</option>
+        </select>
+        <!-- text field -->
+        <div style="margin-top: 15px">
+          <label for="fname"><b>First Name:</b></label>
+          <input
+            type="text"
+            id="fname"
+            placeholder="Enter your name"
+            required
+          />
+        </div>
+        <div style="margin-top: 15px">
+          <label for="lname"><b>Last Name:</b></label>
+          <input type="text" id="lname" />
+        </div>
+        <!-- radio buttons -->
+        <div style="margin-top: 15px">
+          <label for="gender"><b>Gender:</b></label>
+          <input type="radio" name="gender" value="male" />
+          <label for="male">Male</label>
+          <input type="radio" name="gender" value="female" />
+          <label for="female">Female</label>
+        </div>
+        <!-- checkbox -->
+        <div style="margin-top: 15px">
+          <label for="checkbox"><b>Select one app:</b></label>
+          <input
+            type="checkbox"
+            name="checkbox"
+            id="checbox"
+            value="Whatsapp"
+          />Whatsapp
+          <input
+            type="checkbox"
+            name="checkbox"
+            id="checkbox"
+            value="Facebook"
+          />Facebook
+          <input
+            type="checkbox"
+            name="checbox"
+            id="checbox"
+            value="Instagram"
+          />Instagram
+        </div>
+        <!-- email -->
+        <div style="margin-top: 15px">
+          <label for="email"><b>Email:</b></label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="123@gmail.com"
+            required
+          />
+        </div>
+        <!-- Password -->
+        <div style="margin-top: 15px">
+          <label for="password"><b>Password:</b></label>
+          <input type="password" name="password" id="password" required />
+        </div>
+        <!-- tel -->
+        <div style="margin-top: 15px">
+          <label for="tel"><b>Enter your Number:</b></label>
+          <input type="tel" id="tel" />
+        </div>
+        <!-- number -->
+        <div style="margin-top: 15px">
+          <label for="number"><b>Enter your Marks:</b></label>
+          <input type="number" name="number" id="number" />
+        </div>
+        <!-- date and time -->
+        <div style="margin-top: 15px">
+          <label for="dob"><b>Date of Birth:</b></label>
+          <input type="date" name="dob" id="dob" />
+        </div>
+        <!-- color -->
+        <div style="margin-top: 15px">
+          <label for="color"><b>Choose your favourite color:</b></label>
+          <input type="color" name="color" id="color" />
+        </div>
+        <!-- file -->
+        <div style="margin-top: 15px">
+          <label for="image"><b>Upload Photograph:</b></label>
+          <input type="file" name="image" id="image" />
+        </div>
+        <!-- textarea -->
+        <div style="margin-top: 15px">
+          <label for="adress"><b>Adress:</b></label
+          ><br />
+          <textarea name="adress" id="adress" cols="30" rows="3"></textarea>
+        </div>
+        <!-- button -->
+        <button type="submit">Submit</button>
+      </fieldset>
+    </form>
+  </body>
+</html>
